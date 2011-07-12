@@ -35,6 +35,7 @@
     helpdesk_downloadChat-userID: stateVar(helpdesk-userID)
 }
 
+/* TODO add support for i18n at the string 'Request chat transcript' */
 #jabberHelpdeskDownChat2:click {
 
     action-client: replaceHTML;

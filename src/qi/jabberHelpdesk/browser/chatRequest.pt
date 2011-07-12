@@ -1,14 +1,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
 xmlns:tal="http://xml.zope.org/namespaces/tal"
 xmlns:metal="http://xml.zope.org/namespaces/metal"
-xmlns:i18n="http://xml.zope.org/namespaces/i18n" lang="en"
+xmlns:i18n="http://xml.zope.org/namespaces/i18n"
 metal:use-macro="here/main_template/macros/master"
 i18n:domain="qi.jabberHelpdesk">
   <body>
     <metal:main metal:fill-slot="main">
       <tal:main-macro metal:define-macro="main">
     <dl id="kssPortalMessage" class="portalMessage info" style="display: block;">
-    <dt>Info</dt>
+    <dt i18n:translate="label_info">Info</dt>
     <dd i18n:translate="label_waitingForAgents">Please wait while checking for available agents...</dd>
     </dl>
         <div metal:use-macro="context/@@base-pageform.html/macros/form">

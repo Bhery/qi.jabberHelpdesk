@@ -109,7 +109,7 @@ class HelpdeskKSSView(PloneKSSView):
         output.close()
         b64 = base64.encodestring(path)
         href="%s/@@fileDownload?file=%s"%(self.context.absolute_url(),b64)
-        self.core.replaceHTML("#jabberHelpdeskDownChat1",'<a id="jabberHelpdeskDownChat2" href="%s" target="_blank">Download chat transcript</a>'%href)
+        self.core.replaceHTML("#jabberHelpdeskDownChat1",'<a id="jabberHelpdeskDownChat2" href="%s" target="_blank">'+_(u"Download chat transcript")+'</a>'%href)
         return self.render()
     
     def _updateMessages(self,supportmessages,usermessage,
@@ -133,7 +133,7 @@ class HelpdeskKSSView(PloneKSSView):
             for (path,name,descr) in files:
                 b64 = base64.encodestring(path)
                 href = "%s/@@fileDownload?file=%s"%(self.context.absolute_url(),b64)
-                msgElem = msgElem + '<dd>You received a file:<a href=%s target="_blank">%s</a> %s</dd>'%(href,name,descr)
+                msgElem = msgElem + '<dd>'+_(u"You received a file:")+'<a href=%s target="_blank">%s</a> %s</dd>'%(href,name,descr)
             
             if (lastMsgFrom!='support') and (not usermessage):
                 msgHead = '<dl id="lastMsg" class="msgCont"><dt class="msgHead"><span class="msgTL"></span>'
