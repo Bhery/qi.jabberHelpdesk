@@ -1,0 +1,110 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-07-04 14:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+#: ../profiles/default/types/Jabber_Helpdesk.xml
+msgid "A jabber based helpdesk"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "A workflow for helpdesks."
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Can only be seen and edited by the owner."
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Closed"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Comment about the last transition"
+msgstr ""
+
+#: ../profiles/default/actionicons.xml
+#: ../profiles/default/controlpanel.xml
+msgid "Helpdesk Settings"
+msgstr ""
+
+#: ../profiles/default/types/Jabber_Helpdesk.xml
+msgid "Jabber Helpdesk"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Jabber Helpdesk Workflow"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Making your helpdesk private will make it accessible only by yourself and site admins."
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Member makes helpdesk private"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Member makes helpdesk public"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Open"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Opening the helpdesk makes it accessible by users."
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Previous transition"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Provides access to workflow history"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Publish"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Retract"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "The ID of the user who performed the previous transition"
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "Visible to everyone, editable by the owner."
+msgstr ""
+
+#: ../profiles/default/workflows/jhelpdesk_workflow/definition.xml
+msgid "When the previous transition was performed"
+msgstr ""
+
+#. Default: "This portlet lets people ask for online support from the helpdesk."
+#: ../profiles/default/portlets.xml
+msgid "description_helpdesk_portlet"
+msgstr ""
+
+#. Default: "Helpdesk portlet"
+#: ../profiles/default/portlets.xml
+msgid "title_helpdesk_portlet"
+msgstr ""
+

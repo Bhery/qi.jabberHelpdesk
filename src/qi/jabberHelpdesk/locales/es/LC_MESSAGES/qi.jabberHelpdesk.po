@@ -1,0 +1,261 @@
+# translation of qi.jabberHelpdesk to Spanish for plone domain
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2011.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: qi.jabberHelpdesk\n"
+"POT-Creation-Date: 2011-07-04 14:00+0000\n"
+"PO-Revision-Date: 2011-07-03 18:19-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: qi.jabberHelpdesk\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: ../interfaces.py:22
+msgid "A short summary of the helpdesk"
+msgstr "Un corto resumen del centro de atención al cliente"
+
+#: ../browser/portlets/helpdeskPortlet.py:116
+msgid "Add helpdesk portlet"
+msgstr "Agregar un portlet de centro de atención al cliente"
+
+#: ../browser/helpdesk.py:19
+msgid "Add jabber Helpdesk"
+msgstr "Agregar un Centro de atención al cliente basado en jabber"
+
+#: ../interfaces.py:51
+msgid "Agent's jabber ID"
+msgstr "Identificadores Jabber de los Agentes"
+
+#: ../interfaces.py:47
+msgid "Agents IDs"
+msgstr "Identificadores de los Agentes"
+
+#: ../browser/portlets/helpdeskPortlet.py:30
+msgid "An image to be displayed in the body of the portlet"
+msgstr "Una imagen a ser mostrada en el cuerpo del portlet"
+
+#: ../interfaces.py:26
+msgid "Bot's JID"
+msgstr "Identificador Jabber del Bot"
+
+#: ../interfaces.py:32
+msgid "Bot's password"
+msgstr "Contraseña del bot"
+
+#: ../browser/chatRequest.py:29
+msgid "Chat with us"
+msgstr "Converse con nosotros"
+
+#: ../browser/portlets/helpdeskPortlet.pt:3
+msgid "Chat with us live!"
+msgstr "¡Converse con nosotros en linea!"
+
+#: ../browser/HelpdeskKSSView.py:175
+msgid "Connection error"
+msgstr "Error de conexión"
+
+#: ../browser/chatRequest.py:101
+msgid "Could not connect to helpdesk server"
+msgstr "No pudo conectarse al servidor del Centro de atención al cliente"
+
+#: ../content/helpdesk.py:27
+msgid "Create a new jabber helpdesk"
+msgstr "Crear un nuevo Centro de atención al cliente basado en jabber"
+
+#: ../interfaces.py:21
+msgid "Description"
+msgstr "Descripción"
+
+#: ../browser/HelpdeskKSSView.py:113
+msgid "Download chat transcript"
+msgstr "Descargar la conversación transcrita"
+
+#: ../browser/agents.py:12
+msgid "Edit helpdesk agents"
+msgstr "Editar agentes del Centro de atención al cliente"
+
+#: ../browser/portlets/helpdeskPortlet.py:128
+msgid "Edit helpdesk portlet"
+msgstr "Editar portlet del Centro de atención al cliente"
+
+#: ../browser/helpdesk.py:34
+msgid "Edit jabber Helpdesk"
+msgstr "Editar Centro de atención al cliente basado en jabber"
+
+#: ../browser/helpdeskSettings.py:46
+msgid "Helpdesk XMLRPC server"
+msgstr "Servidor XMLRPC del Centro de atención al cliente"
+
+#: ../browser/helpdeskSettings.py:51
+msgid "Helpdesk XMLRPC server port "
+msgstr "Puerto del servidor XMLRPC del Centro de atención al cliente"
+
+#: ../browser/agents.py:13
+msgid "Helpdesk agents"
+msgstr "Agentes de Centro de atención al cliente"
+
+#: ../browser/portlets/helpdeskPortlet.py:47
+msgid "Helpdesk portlet"
+msgstr "Portlet de Centro de atención al cliente"
+
+#: ../browser/helpdesk.py:20
+#: ../browser/helpdeskSettings.py:61
+msgid "Helpdesk settings"
+msgstr "Configuraciones de Centro de atención al cliente"
+
+#: ../browser/portlets/helpdeskPortlet.py:24
+msgid "Link to the helpdesk of your choice"
+msgstr "Enlace al Centro de atención al cliente de su elección"
+
+#: ../interfaces.py:58
+msgid "Name"
+msgstr "Nombre"
+
+#: ../interfaces.py:16
+msgid "Name of the helpdesk"
+msgstr "Nombre del Centro de atención al cliente"
+
+#: ../browser/chatRequest.py:98
+msgid "No available agents."
+msgstr "No hay disponible agentes"
+
+#: ../interfaces.py:37
+msgid "Persistent bot"
+msgstr "Bot persistente"
+
+#: ../browser/chatRequest.py:32
+msgid "Please fill in your details"
+msgstr "Por favor, rellene en sus detalles"
+
+#: ../browser/portlets/helpdeskPortlet.py:29
+msgid "Portlet image"
+msgstr "Imagen de portlet"
+
+#: ../browser/chat.pt:38
+msgid "Request chat transcript"
+msgstr "Solicitar la conversación transcrita"
+
+#: ../browser/helpdeskSettings.py:62
+msgid "Server settings for the helpdesks of this site."
+msgstr "Configuraciones del servidor para los centros de atención al cliente del sitio."
+
+#: ../interfaces.py:38
+msgid "Specifies whether the bot remains loaded even if nobody is using it"
+msgstr "Especifique si el bot permanece cargado incluso si nadie la esta usando"
+
+#: ../interfaces.py:62
+msgid "Subject"
+msgstr "Asunto"
+
+#: ../browser/chatRequest.py:77
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../browser/HelpdeskKSSView.py:52
+msgid "Talking with: "
+msgstr "Hablando con:"
+
+#: ../browser/portlets/helpdeskPortlet.py:23
+msgid "Target helpdesk"
+msgstr "Destino del helpdesk"
+
+#: ../interfaces.py:27
+msgid "The Jabber ID of the bot assigned to this helpdesk"
+msgstr "El identificador del bot asignado a este Centro de atención al cliente"
+
+#: ../browser/helpdeskSettings.py:47
+msgid "The address of your local jabber xmlrpc server."
+msgstr "La dirección de su servidor local de XMLRPC jabber."
+
+#: ../interfaces.py:33
+msgid "The bot's password."
+msgstr "La contraseña del bot"
+
+#: ../interfaces.py:48
+msgid "The jabber IDs of auhorized agents, typically of the form userID@jabberserver"
+msgstr "El identificador jabber del agente autorizado, típicamente de la forma id-usuario@servidor-jabber"
+
+#: ../browser/helpdeskSettings.py:52
+msgid "The port of your XMLRPC server"
+msgstr "El puerto del servidor XMLRPC"
+
+#: ../browser/portlets/helpdeskPortlet.py:117
+msgid "This portlet lets people ask for online support from the helpdesk."
+msgstr "Este portlet le permite a la gente pedir soporte en linea desde el Centro de atención al cliente."
+
+#: ../interfaces.py:15
+msgid "Title"
+msgstr "Título"
+
+#: ../browser/chatRequest.py:30
+msgid "Welcome to our helpdesk"
+msgstr "Bienvenido a nuestro Centro de atención al cliente"
+
+#: ../interfaces.py:63
+msgid "What you would like to discuss."
+msgstr "¿Que le gustaría discutir?."
+
+#: ../browser/HelpdeskKSSView.py:47
+msgid "You are connected to the helpdesk. Someone will be with you shortly."
+msgstr "Usted esta conectado al Centro de atención al cliente. En un momento alguien estará atendiéndolo."
+
+#: ../browser/HelpdeskKSSView.py:138
+msgid "You received a file:"
+msgstr "Usted recibió un archivo:"
+
+#: ../interfaces.py:59
+msgid "Your full name."
+msgstr "Su nombre completo."
+
+#: ../browser/chat.pt:28
+msgid "chatblox.com"
+msgstr "chatblox.com"
+
+#. Default: "Enter the message you want to post below. Links and emoticons are allowed."
+#: ../browser/chat.pt:34
+msgid "help_messageBox"
+msgstr "Ingrese el mensaje que usted quiere enviar. Los enlaces y emoticones son permitidos."
+
+#. Default: "Available agents:"
+#: ../browser/chatRequest.pt:17
+#: ../browser/portlets/helpdeskPortlet.pt:7
+msgid "label_availableAgents"
+msgstr "Agentes disponibles:"
+
+#. Default: "Info"
+#: ../browser/chatRequest.pt:11
+msgid "label_info"
+msgstr "Información"
+
+#. Default: "Message"
+#: ../browser/chat.pt:35
+msgid "label_msgInput"
+msgstr "Mensaje"
+
+#. Default: "Online agents:"
+#: ../browser/chatRequest.pt:21
+msgid "label_onlineAgents"
+msgstr "Agentes en linea:"
+
+#. Default: "Powered by"
+#: ../browser/chat.pt:26
+msgid "label_powered_by"
+msgstr "Basado en"
+
+#. Default: "Please wait while checking for available agents..."
+#: ../browser/chatRequest.pt:12
+msgid "label_waitingForAgents"
+msgstr "Por favor, espero mientras comprobamos los agentes disponibles..."
+
+#: ../browser/chat.pt:28
+msgid "qi.jabberHelpdesk"
+msgstr "qi.jabberHelpdesk"
+
