@@ -1,0 +1,31 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="qi.jabberHelpdesk">
+
+  <!-- Register the installation GenericSetup profile -->
+  <genericsetup:registerProfile
+      name="default"
+      title="qi's jabber based helpdesk"
+      directory="profiles/default"
+      description="Extension profile for qi.jabberHelpdesk."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title gs_profiles_default_title;
+                       description gs_profiles_default_description;"
+      />
+  
+  <!-- Register the uninstallation GenericSetup extension profile -->
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="qi's jabber based helpdesk Uninstall Profile"
+      directory="profiles/uninstall"
+      description="Removes qi's jabber based helpdesk."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      i18n:attributes="title gs_profiles_uninstall_title;
+                       description gs_profiles_uninstall_description;"
+      />
+ 
+
+</configure>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object name="Jabber Helpdesk"
    meta_type="Factory-based Type Information"
-   i18n:domain="qi.jabberHelpdesk" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+   i18n:domain="plone" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
  <property name="title" i18n:translate="">Jabber Helpdesk</property>
  <property name="description" i18n:translate="">A jabber based helpdesk</property>
  <property name="content_icon">++resource++qi.jabberHelpdesk.icon.gif</property>

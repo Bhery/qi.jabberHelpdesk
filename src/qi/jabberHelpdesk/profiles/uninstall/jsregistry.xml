@@ -3,9 +3,10 @@
 
  <javascript cacheable="True" compression="none" cookable="True"
     enabled="True" expression="python: here.restrictedTraverse('@@kss_devel_mode').isoff()"
-    id="++resource++kukit.js" inline="False"/>
+    id="++resource++kukit.js" inline="False" remove="True" />
+
  <javascript cacheable="True" compression="none" cookable="True"
     enabled="True" expression="python: here.restrictedTraverse('@@kss_devel_mode').ison()"
-    id="++resource++kukit-devel.js" inline="False"/>
+    id="++resource++kukit-devel.js" inline="False" remove="True" />
 
 </object>

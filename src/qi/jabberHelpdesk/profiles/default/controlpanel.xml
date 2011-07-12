@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
-<object name="portal_controlpanel" meta_type="Plone Control Panel Tool">
+<object name="portal_controlpanel" 
+        meta_type="Plone Control Panel Tool"
+        xmlns:i18n="http://namespaces.zope.org/i18n"
+        i18n:domain="plone">
 
- <configlet title="Helpdesk" action_id="HelpdeskSettings"
-    appId="qi.jabberHelpdesk" category="Products" condition_expr=""
-    url_expr="string:${portal_url}/@@helpdesk-settings-controlpanel"
-    visible="True">
-  <permission>Manage portal</permission>
+ <configlet title="Helpdesk Settings"
+            category="Products"
+            action_id="HelpdeskSettings"
+            appId="qi.jabberHelpdesk"
+            condition_expr=""
+            i18n:attributes="title"
+            url_expr="string:${portal_url}/@@helpdesk-settings-controlpanel"
+            visible="True"
+            icon_expr="string:$portal_url/++resource++qi.jabberHelpdesk.icon.gif">
+    <permission>Manage portal</permission>
  </configlet>
 
 </object>

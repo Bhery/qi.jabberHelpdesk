@@ -3,9 +3,10 @@
 
  <kineticstylesheet cacheable="True" compression="safe" cookable="True"
     enabled="1" expression="python:object.getTypeInfo().getId()=='Jabber Helpdesk'" 
-    id="++resource++qi.jabberHelpdesk.kss/helpdesk.kss"/>
+    id="++resource++qi.jabberHelpdesk.kss/helpdesk.kss" remove="True" />
 
  <kineticstylesheet cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression="" id="++resource++qi.jabberHelpdesk.kss/helpdeskportlet.kss"/>
+    enabled="1" expression="" id="++resource++qi.jabberHelpdesk.kss/helpdeskportlet.kss" 
+    remove="True" />
 
 </object>
