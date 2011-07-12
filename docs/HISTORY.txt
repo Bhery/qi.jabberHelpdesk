@@ -1,6 +1,11 @@
 Changelog for qi.jabberHelpdesk
 
 qi.jabberHelpdesk - 0.30
+  - Added a Buildout configuration file for install and deploy qi.jabberHelpdesk products for Plone 3.3.5 [macagua]
+  - Added a Generic Setup Uninstall profile [macagua]
+  - Added support for Spanish localization [macagua]
+  - Added support for plone and qi.jabberHelpdesk domains in the Internationalization [macagua]
+  - Added improvements about the Internationalization [macagua]
   - Security fixes, some vulnerable xml-rpc calls fixed. [ggozad]
 
 qi.jabberHelpdesk - 0.22
