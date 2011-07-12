@@ -39,6 +39,7 @@ class IHelpdesk(Interface):
                          "even if nobody is using it"),
         default = False,
     )
+
 class IHelpdeskAgents(Interface):
     """
     """
